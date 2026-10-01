@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int multiply(int a, int b)
+double multiply(double a, int b)
 {
     return a * b;
 }
 
 int main()
 {
-    int hasil = multiply(5, 4);
+    double hasil = multiply(1.190, 4);
 
     cout << hasil;
 

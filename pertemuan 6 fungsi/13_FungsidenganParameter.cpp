@@ -6,16 +6,16 @@ void displayMessage(string name)
     cout << "Hello, " << name << endl;
 }
 
-int multiply(int a, int b)
+double multiply(int a, int b, double c)
 {
-    return a * b;
+    return a * b / c;
 }
 
 int main()
 {
     displayMessage("Asyam");
 
-    int hasil = multiply(5, 4);
+    int hasil = multiply(5, 4,10);
 
     cout << "Hasil: " << hasil << endl;
 

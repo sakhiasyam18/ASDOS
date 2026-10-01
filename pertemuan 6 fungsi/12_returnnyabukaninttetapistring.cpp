@@ -23,7 +23,7 @@ string determineGrade(int score)
 
 int main()
 {
-    string hasil = determineGrade(80);
+    string hasil = determineGrade(60);
 
     cout << "Nilai: " << hasil << endl;
 

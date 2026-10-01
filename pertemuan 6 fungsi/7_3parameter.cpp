@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-void sapa(string nama)
+void sapa(int nama)
 {
     cout << "Halo " << nama;
 }
 
 int main()
 {
-    sapa("Asyam");
+    sapa(100);
 
     return 0;
 }

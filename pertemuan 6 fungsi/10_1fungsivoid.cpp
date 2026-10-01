@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
 
-void tambah()
+int total()
 {
-    cout << 10 + 20;
+    return 10+30;
 }
 
 int main()
 {
-    tambah();
+    int hasil= total();
+    total();
 
     return 0;
 }

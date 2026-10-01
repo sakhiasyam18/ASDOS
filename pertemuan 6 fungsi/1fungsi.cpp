@@ -29,11 +29,11 @@ void tampilkanHasil()
 int main()
 {
 
-    hitungNilai();
-    cekKelulusan();
+        cekKelulusan();
 
     inputData();
     tampilkanHasil();
+    hitungNilai();
 
     return 0;
 }

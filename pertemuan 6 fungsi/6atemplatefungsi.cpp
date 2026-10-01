@@ -13,7 +13,7 @@ int main()
     string teks = "Hello";
 
     cout << sqrt(25) << endl;
-    cout << pow(2, 3) << endl;
+    cout << pow(2, 5) << endl;
     cout << round(4.6) << endl;
 
     cout << strlen(nama) << endl;
@@ -21,7 +21,7 @@ int main()
     cout << max(10, 20) << endl;
     cout << min(10, 20) << endl;
 
-    sort(angka, angka + 5);
+    sort(angka, angka);
 
     for (int i = 0; i < 5; i++)
     {
